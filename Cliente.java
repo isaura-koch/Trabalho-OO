@@ -1,16 +1,14 @@
-public class Cliente () {
+public class Cliente {
     String nome;
     String cpf;
     String endereco;
     String contato;
-    Int idCliente;
 
-    public Cliente (String nome, String cpf, String endereco, String contato, Int idCliente) {
+    public Cliente (String nome, String cpf, String endereco, String contato) {
         this.nome = nome;
         this.cpf = cpf;
         this.endereco = endereco;
         this.contato = contato;
-        this.idCliente = idCliente;
     }
 
     public String getNome() {
@@ -29,9 +27,6 @@ public class Cliente () {
         return contato;
     }
 
-    public Int getIdCliente(){
-        return idCliente;
-    }
 
     public void setNome(String nome) {
         this.nome = nome;
@@ -49,8 +44,5 @@ public class Cliente () {
         this.contato = contato;
     }
 
-    public void setIdCliente(String idCliente) {
-        this.idCliente = idCliente
-    }
 
 }

@@ -1,9 +1,9 @@
-public class Produto () {
+public class Produto {
     String descricao;
     Double valor;
-    Int quantidade;
+    Double quantidade;
 
-    public Produto (String descricao, Double valor, Int quantidade) {
+    public Produto (String descricao, Double valor, Double quantidade) {
         this.descricao = descricao;
         this.valor = valor;
         this.quantidade = quantidade;
@@ -17,7 +17,7 @@ public class Produto () {
         return valor;
     }
 
-    public Int getQuantidade() {
+    public Double getQuantidade() {
         return quantidade;
     }
 
@@ -29,7 +29,7 @@ public class Produto () {
         this.valor = valor;
     }
 
-    public void setQuantidade(Int quantidade) {
+    public void setQuantidade(Double quantidade) {
         this.quantidade = quantidade;
     }
 }

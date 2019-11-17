@@ -1,8 +1,8 @@
-public class Envio () {
-    String formaDeEnvio
-    Int valorFrete
+public class Envio {
+    String formaDeEnvio;
+    Double valorFrete;
 
-    public Envio (String formaDeEnvio, Int valorFrete) {
+    public Envio (String formaDeEnvio, Double valorFrete) {
         this.formaDeEnvio = formaDeEnvio;
         this.valorFrete = valorFrete;
     }
@@ -11,7 +11,7 @@ public class Envio () {
         return formaDeEnvio;
     }
 
-    public Int getValorFrete() {
+    public Double getValorFrete() {
         return valorFrete;
     }
 
@@ -19,7 +19,7 @@ public class Envio () {
         this.formaDeEnvio = formaDeEnvio;
     }
 
-    public void setValorFrete (Int valorFrete) {
+    public void setValorFrete (Double valorFrete) {
         this.valorFrete = valorFrete;
     }
 }
